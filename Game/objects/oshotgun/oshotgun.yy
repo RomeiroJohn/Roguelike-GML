@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBullet",
-    "path": "sprites/sBullet/sBullet.yy",
+    "name": "sShotgun",
+    "path": "sprites/sShotgun/sShotgun.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bullets",
-    "path": "folders/Objects/rmGame/Bullets.yy",
+    "name": "Weapons",
+    "path": "folders/Objects/rmGame/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBullet",
+  "name": "oShotgun",
   "tags": [],
   "resourceType": "GMObject",
 }
