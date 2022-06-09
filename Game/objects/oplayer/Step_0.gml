@@ -1,0 +1,2 @@
+scrPlayer();
+scrWeapons();
