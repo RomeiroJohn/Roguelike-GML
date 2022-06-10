@@ -12,3 +12,4 @@ creating an roguelike game on gamemaker
 - Additing 1 more weapon: Shotgun
 - Created placeholder for shotgun
 - Created shotgun variables and behavior inside the game
+- Working on character sprites *
