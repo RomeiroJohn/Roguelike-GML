@@ -27,6 +27,20 @@ function scrWeapons(){
 		}
 		//End code
 		break;#endregion
+		case "sniper":
+		#region
+		//Start code
+		//Pisol Settings
+			ammo = oSniperFire
+			atkspd = 90;
+			
+		//Pistol Behavior
+		if(shooting && device_mouse_check_button(0,mb_left)){
+		instance_create_depth(x,y,1,ammo);
+		shooting = false;
+		}
+		//End code
+		break;#endregion
 		case "flamet":
 		#region
 		//Start code
@@ -46,7 +60,7 @@ function scrWeapons(){
 		//Shotgun settings
 		ammo = oBullet;
 		atkspd = 30;
-		var dispersion = 5
+		var dispersion = 10
 
 		//Shotgun behavior
 		if(shooting && device_mouse_check_button(0,mb_left)){
@@ -62,9 +76,8 @@ function scrWeapons(){
 		shooting = false;
 		}
 		//End code
-		break;#endregion
+		break;#endregion\
 	
 	
 	} //End switch case
-
 } 

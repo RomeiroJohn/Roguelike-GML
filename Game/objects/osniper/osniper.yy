@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFlameT",
-    "path": "sprites/sFlameT/sFlameT.yy",
+    "name": "sSniper",
+    "path": "sprites/sSniper/sSniper.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/rmGame/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oFlameT",
+  "name": "oSniper",
   "tags": [],
   "resourceType": "GMObject",
 }
